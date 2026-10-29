@@ -1,5 +1,5 @@
 # NKUST_SOC_HW2
-<h2>查找Zynq-7020 SoC技術手冊ug585-Zynq-7000-TRM
+# <h2>查找Zynq-7020 SoC技術手冊ug585-Zynq-7000-TRM
 <img width="682" height="599" alt="image" src="https://github.com/user-attachments/assets/8d733adf-b9a4-43c5-a813-129862f96773" />
 <img width="676" height="448" alt="image" src="https://github.com/user-attachments/assets/d6b44466-9453-473c-804c-aaa56aa6fc48" />
 <img width="633" height="93" alt="image" src="https://github.com/user-attachments/assets/b3e628e1-4155-4438-9e3d-0f05f7a9e8a8" />
