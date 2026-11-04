@@ -46,7 +46,7 @@ Interrupt Service Routine (ISR) 頁數：第 261 頁
   - 1-N 模型（只需任一 Target CPU 處理）還是 N-N 模型（所有指定的 Target CPU 均需獨立處理）。
 <img width="629" height="386" alt="image" src="https://github.com/user-attachments/assets/5b22c33d-32b6-4884-81c5-7d7c42381274" />
 <img width="632" height="861" alt="image" src="https://github.com/user-attachments/assets/e9dad413-0f86-4581-b77a-fb0f5b62a90c" />
-<img width="630" height="479" alt="image" src="https://github.com/user-attachments/assets/b9064c9e-5521-458a-943b-c507147a08d1" />  
+<img width="630" height="479" alt="image" src="https://github.com/user-attachments/assets/b9064c9e-5521-458a-943b-c507147a08d1" /><br>
 11. 中斷來源與對應 ID（IRQ ID 0～15，共 16 個 SGI）：  
    * 軟體自訂中斷（SGI 0 ~ 15）：主要用於 **CPU 核心之間的通訊與同步（Inter-Processor Communication / IPI）。  
    * 發送機制：CPU0 或 CPU1 可以透過寫入 GIC 控制暫存器（如 `ICDSGIR`），主動觸發 SGI 發送中斷訊號給自己或另一個 CPU 核心。  
