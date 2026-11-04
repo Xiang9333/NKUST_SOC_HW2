@@ -49,7 +49,7 @@ Interrupt Service Routine (ISR) 頁數：第 261 頁
 <img width="630" height="479" alt="image" src="https://github.com/user-attachments/assets/b9064c9e-5521-458a-943b-c507147a08d1" /><br>
 
 11. 中斷來源與對應 ID（IRQ ID 0～15，共 16 個 SGI）：  
-* 軟體自訂中斷（SGI 0 ~ 15）：主要用於 **CPU 核心之間的通訊與同步（Inter-Processor Communication / IPI）。  
+* 軟體自訂中斷（SGI 0 ~ 15）：主要用於 CPU 核心之間的通訊與同步（Inter-Processor Communication / IPI）。  
 * 發送機制：CPU0 或 CPU1 可以透過寫入 GIC 控制暫存器（如 `ICDSGIR`），主動觸發 SGI 發送中斷訊號給自己或另一個 CPU 核心。  
 12. 屬性欄位說明：  
 * Interrupt Name / Source：中斷名稱（SGI0 至 SGI15）。  
