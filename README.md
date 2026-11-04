@@ -1,6 +1,6 @@
 # NKUST_SOC_HW2
 # <h2>1. 
-Board Support Packages (BSP) 頁數：第 26 頁</>
+Board Support Packages (BSP) 頁數：第 26 頁/
 Interrupt Service Routine (ISR) 頁數：第 261 頁
 # <h2>2. 查找Zynq-7020 SoC技術手冊ug585-Zynq-7000-TRM
 <img width="682" height="599" alt="image" src="https://github.com/user-attachments/assets/8d733adf-b9a4-43c5-a813-129862f96773" />
