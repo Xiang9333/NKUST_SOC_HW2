@@ -11,4 +11,5 @@
 <img width="666" height="687" alt="image" src="https://github.com/user-attachments/assets/0ffbb057-3667-4529-9976-9f8a8ee4a74a" />
 
 <h2>2. 實作
+<img width="1053" height="534" alt="image" src="https://github.com/user-attachments/assets/41c0ae68-55db-4785-9a39-08219d9a28f9" />
 
