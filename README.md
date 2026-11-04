@@ -10,10 +10,10 @@ Interrupt Service Routine (ISR) 頁數：第 261 頁
 * 定時器與計數器：TTC (Triple Timer Counter)、WDT (Watchdog Timer)。  
 * PL 邏輯端中斷 (PL-to-PS Interrupts)：包含由 PL 發送給 PS 的 16 個中斷訊號（Fabric Interrupts，分配於 IRQ ID 61-68 及 84-91）。  
 <img width="682" height="599" alt="image" src="https://github.com/user-attachments/assets/8d733adf-b9a4-43c5-a813-129862f96773" />
-<img width="676" height="448" alt="image" src="https://github.com/user-attachments/assets/d6b44466-9453-473c-804c-aaa56aa6fc48" />
-### 2. ICDISR0 ～ ICDISR2 (Interrupt Security Registers)
-* **功能說明**：**中斷安全性設定暫存器**。
-* **主要用途**：定義每個中斷訊號（IRQ ID 0~95）屬於 **Secure (S)** 還是 **Non-secure (NS)** 狀態（配合 TrustZone 安全機制使用）。  
+<img width="676" height="448" alt="image" src="https://github.com/user-attachments/assets/d6b44466-9453-473c-804c-aaa56aa6fc48" />  
+2. ICDISR0 ～ ICDISR2 (Interrupt Security Registers)  
+功能說明：中斷安全性設定暫存器。  
+主要用途：定義每個中斷訊號（IRQ ID 0~95）屬於 **Secure (S)** 還是 **Non-secure (NS)** 狀態（配合 TrustZone 安全機制使用）。  
 <img width="633" height="93" alt="image" src="https://github.com/user-attachments/assets/b3e628e1-4155-4438-9e3d-0f05f7a9e8a8" />
 <img width="634" height="412" alt="image" src="https://github.com/user-attachments/assets/aa364e47-c922-4175-96c2-c48db2ef3dd5" />
 <img width="629" height="386" alt="image" src="https://github.com/user-attachments/assets/5b22c33d-32b6-4884-81c5-7d7c42381274" />
