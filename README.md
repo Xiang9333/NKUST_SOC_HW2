@@ -18,8 +18,12 @@ Interrupt Service Routine (ISR) 頁數：第 261 頁
 3. ICDISER0 ～ ICDISER2 (Interrupt Set-Enable Registers)  
 * 功能說明：中斷致能設定暫存器。  
 * 主要用途**：寫入 `1` 可以**開啟（Enable）**特定中斷。  
-
----
+4. ICDICER0 ～ ICDICER2 (Interrupt Clear-Enable Registers)  
+* 功能說明：中斷停用/清除設定暫存器。  
+* 主要用途：寫入 `1` 可以**關閉/禁用（Disable）**特定中斷。  
+4. ICDISPR0 ～ ICDISPR2 (Interrupt Set-Pending Registers)  
+* 功能說明**：強製掛起（Set-Pending）設定暫存器。  
+* 主要用途**：寫入 `1` 可以**手動將特定中斷設為 Pending（掛起/等待處理）狀態**（常用於軟體測試或模擬中斷）。  
 <img width="633" height="93" alt="image" src="https://github.com/user-attachments/assets/b3e628e1-4155-4438-9e3d-0f05f7a9e8a8" />
 <img width="634" height="412" alt="image" src="https://github.com/user-attachments/assets/aa364e47-c922-4175-96c2-c48db2ef3dd5" />
 <img width="629" height="386" alt="image" src="https://github.com/user-attachments/assets/5b22c33d-32b6-4884-81c5-7d7c42381274" />
