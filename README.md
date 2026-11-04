@@ -1,16 +1,15 @@
 # NKUST_SOC_HW2
-# <h2>1. 
-Board Support Packages (BSP) 頁數：第 26 頁
-
+# <h2>1.
+Board Support Packages (BSP) 頁數：第 26 頁  
 Interrupt Service Routine (ISR) 頁數：第 261 頁
 
 # <h2>2. 查找Zynq-7020 SoC技術手冊ug585-Zynq-7000-TRM
 中斷來源與對應 ID（IRQ ID 32～95，共 64 個 SPI）：
 
-1.Core / System 周邊：例如 OCM（On-Chip Memory）錯誤、L2 Cache 中斷、DMA 控制器中斷（DMAC）、System Watchdog 等。 
-通訊介面周邊：例如 UART (0/1)、I2C (0/1)、SPI (0/1)、CAN (0/1)、SDIO (0/1)、Gigabit Ethernet (0/1)、USB (0/1) 等控制器的中斷。
-定時器與計數器：TTC (Triple Timer Counter)、WDT (Watchdog Timer)。
-PL 邏輯端中斷 (PL-to-PS Interrupts)：包含由 PL 發送給 PS 的 16 個中斷訊號（Fabric Interrupts，分配於 IRQ ID 61~68 及 84~91）。
+1.Core / System 周邊：例如 OCM（On-Chip Memory）錯誤、L2 Cache 中斷、DMA 控制器中斷（DMAC）、System Watchdog 等。  
+通訊介面周邊：例如 UART (0/1)、I2C (0/1)、SPI (0/1)、CAN (0/1)、SDIO (0/1)、Gigabit Ethernet (0/1)、USB (0/1) 等控制器的中斷。  
+定時器與計數器：TTC (Triple Timer Counter)、WDT (Watchdog Timer)。  
+PL 邏輯端中斷 (PL-to-PS Interrupts)：包含由 PL 發送給 PS 的 16 個中斷訊號（Fabric Interrupts，分配於 IRQ ID 61-68 及 84-91）。  
 <img width="682" height="599" alt="image" src="https://github.com/user-attachments/assets/8d733adf-b9a4-43c5-a813-129862f96773" />
 <img width="676" height="448" alt="image" src="https://github.com/user-attachments/assets/d6b44466-9453-473c-804c-aaa56aa6fc48" />
 <img width="633" height="93" alt="image" src="https://github.com/user-attachments/assets/b3e628e1-4155-4438-9e3d-0f05f7a9e8a8" />
